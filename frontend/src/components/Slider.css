@@ -2,21 +2,21 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;  
+  align-items: center;
 }
 
-.slide img { 
+.slide img {
   margin: 0 auto;
 }
 
 .slide p {
-color:  #303B9C;
-text-align: center;
-font-family: Lato;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: 150%; /* 36px */
+  color: #303b9c;
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
 }
 
 .title {
@@ -29,5 +29,5 @@ line-height: 150%; /* 36px */
   line-height: 150%; /* 90px */
   letter-spacing: 3px;
   margin: 0 auto;
-  width: 100%;   
+  width: 100%;
 }
