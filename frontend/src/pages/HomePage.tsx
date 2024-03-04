@@ -20,7 +20,7 @@ const HomePage: React.FC = () => {
           <img src={people} alt="people" />
         </div>
       </div>
-      <Link to={'/about'}>
+      <Link to={'/about'} className="lint-to-about">
         <div className="get-started-btn">
           <h4>Get Started</h4>
         </div>

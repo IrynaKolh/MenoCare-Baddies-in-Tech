@@ -45,8 +45,12 @@
   justify-content: center;
 }
 
-.get-started-btn a {
+a {
   text-decoration: none;
+}
+
+.get-started-btn h4:hover {
+   scale: 1.1;
 }
 
 .get-started-btn h4 {

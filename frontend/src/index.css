@@ -32,8 +32,26 @@
 
 .header {
   height: 95px;
-  max-width: 1440px;
-  /* text-align: center; */
+  width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;  
+}
+
+.user-btn {
+  height: 50px;
+  padding: 1rem;
+  border-radius: 50px;
+  background: #ab1661;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;  
+  letter-spacing: 0.5px;
 }
 
 .footer {
