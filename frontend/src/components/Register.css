@@ -1,0 +1,106 @@
+.form-container {
+  display: flex;
+  width: 625px;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px;
+  width: 344px;
+  margin: 0 auto;
+}
+
+.form-title {
+  color: #000;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 1.6px;
+}
+
+.form-description,
+.lint-to-login {
+  color: #000;
+  text-align: center;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+}
+
+.label {
+  color: #000;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  width: 100%;
+}
+
+.form-input {
+  display: flex;
+  padding: 12px 48px 12px 14px;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1 0 0;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 2px solid #1b1b1b;
+  background: #fff;
+  width: 100%;
+  color: #1b1b1b;
+}
+
+.register-btn {
+  display: flex;
+  height: 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: #ab1661;
+  border: none;
+  width: 100%;
+}
+
+.terms {
+  color: #000;
+  text-align: center;
+  font-family: 'Patrick Hand';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin-top: 3rem;
+}
+
+.terms a,
+.lint-to-login a {
+  color: #ab1661;
+  text-decoration: none;
+}
+
+.terms a:hover,
+.lint-to-login a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.error-msg {
+  color: red;
+  padding: 0;
+  margin: 0;
+}
