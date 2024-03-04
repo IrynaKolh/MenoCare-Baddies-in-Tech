@@ -18,7 +18,6 @@ export interface AuthUser {
   token: string;
   user: {
     name: string;
-    isSeller: boolean;
   };
 }
 

@@ -26,7 +26,12 @@ const Header: React.FC = () => {
             Logout
           </button>
           <button className="user-btn">
-            <IconUser size={26} strokeWidth={2.5} color="#fff" />
+            <IconUser
+              size={26}
+              strokeWidth={2.5}
+              color="#fff"
+              onClick={() => navigate('/dashboard')}
+            />
           </button>
         </div>
       ) : (

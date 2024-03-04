@@ -18,7 +18,7 @@ const LoginForm: React.FC = () => {
       localStorage.setItem('user', JSON.stringify(user));
       login(user);
       actions.resetForm();
-      navigate('/');
+      navigate('/dashboard');
     } catch (error) {
       console.error('Error submitting form:', error);
     }
